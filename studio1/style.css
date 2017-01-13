@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Padauk');
+
+*{
+  box-sizing: border-box;
+}
+div{
+  float: left;
+  margin-left: 20px;
+}
+
+body{
+  font-family: 'Padauk', sans-serif;
+  background-color: #FAFAFA;
+  color: #475053;
+  width: 800px;
+  margin:auto;
+}
+
+footer{
+  clear:both;
+}
+
+a{
+  text-decoration: none;
+  color: #FF7070;
+}
+
+a:hover{
+  text-decoration: underline;
+}
