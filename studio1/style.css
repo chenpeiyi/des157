@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Padauk');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 *{
   box-sizing: border-box;
@@ -57,28 +57,69 @@ table {
 
 /*********************** Reset ends ***********************/
 
-div{
-  float: left;
-  margin-left: 20px;
-}
+/*********************** Reset ends ***********************/
 
-body{
-  font-family: 'Padauk', sans-serif;
-  background-color: #FAFAFA;
-  color: #475053;
-  width: 800px;
-  margin:auto;
-}
 
-footer{
-  clear:both;
-}
+
+/* COLOR AND STUFF
+
+link green color: #29C6CD 4dc1a8
+hightlight orange:
+
+*/
+
 
 a{
   text-decoration: none;
-  color: #FF7070;
+  color: #1ABC9C
+;
 }
 
 a:hover{
-  text-decoration: underline;
+  background-color: rgba(243, 156, 18,.5);
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #475053;
+  background-color: white;
+  width: 800px;
+  margin:auto;
+  line-height: 2em;
+}
+
+h1, section, footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+div{
+  float: left;
+  margin-right: 100px;
+}
+
+
+footer{
+  clear:both;
+  align-items: center;
+}
+
+footer li{
+  display: inline;
+  padding-right: 50px;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+
+}
+
+h2{
+  letter-spacing: .2em;
+  font-size: 1.3em;
+  padding-bottom: .5em;
 }
