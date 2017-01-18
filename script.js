@@ -12,13 +12,14 @@ function setup() {
 
 function draw() {
 
-  colorMode(HSB, 360, 100, 100);
+  if (mouseIsPressed){
+    fill(0);
+  }
 
-  fill(mouseX, mouseY, 89, .5);
+  else{
+    fill(250);
+  }
 
-  noStroke();
-
-  rect(pmouseX, pmouseY, 800 ,300);
-
+  ellipse(mouseX, mouseY, 50 ,50);
 
 }
