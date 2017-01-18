@@ -20,5 +20,4 @@ function draw() {
 
   rect(pmouseX, pmouseY, 800 ,300);
 
-
 }
