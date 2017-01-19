@@ -63,15 +63,15 @@ table {
 
 /* COLOR AND STUFF
 
-link green color: #29C6CD
-hightlight orange:
+link green color: #29C6CD; link #1ABC9C
+hightlight orange: rgba(243, 156, 18,.5)
 
 */
 
 
 a{
   text-decoration: none;
-  color: #1ABC9C
+  color: #1ABC9C;
 ;
 }
 

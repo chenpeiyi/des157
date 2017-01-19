@@ -88,7 +88,7 @@ article h2{
 body {
     font-family: 'Lato', sans-serif;
     color: #475053;
-    background-color: white;
+    font-size: 11pt;
     width: 800px;
     margin: auto;
     line-height: 2em;
@@ -116,14 +116,14 @@ footer li {
 
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 25pt;
     text-transform: uppercase;
     letter-spacing: .5em;
 }
 
 h2 {
     letter-spacing: .2em;
-    font-size: 1.3em;
+    font-size: 18pt;
     padding-bottom: .5em;
     font-family: 'Bitter';
     color: #808080;
