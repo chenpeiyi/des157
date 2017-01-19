@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Bitter');
+@import url('https://fonts.googleapis.com/css?family=Lato|Abhaya+Libre');
 
 *{
   box-sizing: border-box;
@@ -99,7 +99,7 @@ h2{
   letter-spacing: .2em;
   font-size: 18pt;
   padding-bottom: .5em;
-  font-family: 'Bitter';
+  font-family: 'Abhaya Libre';
   color: #808080;
 }
 
