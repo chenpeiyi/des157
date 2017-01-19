@@ -122,5 +122,8 @@ footer{
 footer li{
   display: inline;
   padding-right: 50px;
+}
 
+ol{
+  list-style: decimal;
 }
