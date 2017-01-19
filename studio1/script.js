@@ -16,7 +16,7 @@ function draw() {
   colorMode(HSB, 360, 100, 100);
   fill(random(20, 200),random(70,72), 89, .2);
   noStroke();
-  ellipse(mouseX-random(50,100), mouseY, random(100,500) , random(100,500));
+  ellipse(mouseX, mouseY, random(50,400) , random(100,400));
 
   if (mouseIsPressed){
     background(255);
