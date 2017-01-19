@@ -73,17 +73,17 @@ a:hover {
     background-color: rgba(243, 156, 18, .5);
 }
 
+article h2{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 #blog-col{
   width: 600px;
   margin: auto;
 }
 
 /* for blog only */
-
-article h2{
-  text-transform: uppercase;
-  font-weight: 600;
-}
 
 body {
     font-family: 'Lato', sans-serif;
