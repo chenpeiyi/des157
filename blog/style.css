@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Abhaya+Libre');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Lato');
 * {
     box-sizing: border-box;
 }
@@ -73,10 +73,6 @@ a:hover {
     background-color: rgba(243, 156, 18, .5);
 }
 
-article h2{
-  text-transform: uppercase;
-}
-
 article{
   width: 600px;
 }
@@ -112,10 +108,10 @@ h1 {
 }
 
 h2 {
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     font-size: 18pt;
     padding-bottom: .5em;
-    font-family: 'Abhaya+Libre';
+    font-family: 'Abhaya Libre';
     color: #808080;
 }
 
