@@ -72,7 +72,6 @@ hightlight orange: rgba(243, 156, 18,.5)
 a{
   text-decoration: none;
   color: #1ABC9C;
-;
 }
 
 a:hover{
@@ -86,6 +85,22 @@ body{
   width: 800px;
   margin:auto;
   line-height: 2em;
+}
+
+h1{
+  text-align: center;
+  font-size: 25pt;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+
+}
+
+h2{
+  letter-spacing: .2em;
+  font-size: 18pt;
+  padding-bottom: .5em;
+  font-family: 'Bitter';
+  color: #808080;
 }
 
 h1, section, footer{
@@ -108,20 +123,4 @@ footer li{
   display: inline;
   padding-right: 50px;
 
-}
-
-h1{
-  text-align: center;
-  font-size: 25pt;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-
-}
-
-h2{
-  letter-spacing: .2em;
-  font-size: 18pt;
-  padding-bottom: .5em;
-  font-family: 'Bitter';
-  color: #808080;
 }
