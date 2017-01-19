@@ -5,19 +5,21 @@
 console.log("this is a js comment");
 
 function setup() {
+  background(255);
   var myCanvas=createCanvas(800, 250);
   myCanvas.parent('mySketch');
-  background(255);
+  frameRate(5);
+
 }
 
 function draw() {
-
   colorMode(HSB, 360, 100, 100);
-
-  fill(mouseX, mouseY, 89, .5);
-
+  fill(random(20, 200),random(70,72), 89, .2);
   noStroke();
+  ellipse(mouseX-random(50,100), mouseY, random(100,500) , random(100,500));
 
-  rect(pmouseX, pmouseY, 800 ,300);
+  if (mouseIsPressed){
+    background(255);
+  }
 
 }
