@@ -60,7 +60,7 @@ table {
 /* COLOR AND STUFF
 
 link green color: #29C6CD
-hightlight orange:
+hightlight orange: rgba(243, 156, 18, .5);
 
 */
 
@@ -78,12 +78,14 @@ article h2{
   font-weight: 600;
 }
 
-#blog-col{
+article{
   width: 600px;
-  margin: auto;
 }
 
-/* for blog only */
+#blog-col{
+  width: 800px;
+  margin: auto;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -99,11 +101,6 @@ h1, section, footer {
     padding-bottom: 60px;
 }
 
-div {
-    float: left;
-    margin-right: 100px;
-}
-
 footer {
     clear: both;
     align-items: center;
@@ -115,7 +112,6 @@ footer li {
 }
 
 h1 {
-    text-align: center;
     font-size: 25pt;
     text-transform: uppercase;
     letter-spacing: .5em;
