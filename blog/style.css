@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:700|Lato');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Lato');
 * {
     box-sizing: border-box;
 }
@@ -52,6 +52,10 @@ table {
 
 /*********************** Reset ends ***********************/
 
+::selection{
+  background-color: darkturquoise;
+  color: white;
+}
 a {
     text-decoration: none;
     color: darkturquoise;
@@ -71,10 +75,9 @@ body {
 }
 
 #date{
-  float: left;
-  padding-right: 30px;
-  width: 100px;
+  width: 150px;
   display: block;
+  padding-top: 50px;
 }
 
 article div{
@@ -95,7 +98,6 @@ h1 {
     font-size: 25pt;
     text-transform: uppercase;
     letter-spacing: .5em;
-    color: dimgrey;
 }
 
 h1, section, footer {
@@ -104,17 +106,16 @@ h1, section, footer {
 }
 
 h2 {
-  color: #D3D3D3;
-  float: left;
   display: block;
+  font-size: 16px;
+  font-style: italic;
+  color: lightgrey;
 }
 
 h3{
-  font-size: 18pt;
-  padding-bottom: .5em;
-  font-family: 'Lato';
-  color: dimgrey;
-  font-weight: 800;
+  padding-bottom: 30px;
+  font-size: 22pt;
+  font-family: 'Abhaya Libre';
 }
 
 img{
@@ -130,7 +131,10 @@ li a:hover {
     background-color: gold;
     color: white;
 }
-
+main{
+  margin-top: 30px;
+  }
 p{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }

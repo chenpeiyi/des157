@@ -57,6 +57,11 @@ table {
 
 /*********************** Reset ends ***********************/
 
+::selection{
+  background-color: darkturquoise;
+  color: white;
+}
+
 a{
   text-decoration: none;
   color: darkturquoise;
@@ -85,7 +90,6 @@ h1{
 }
 
 h2{
-  letter-spacing: .2em;
   font-size: 18pt;
   padding-bottom: .5em;
   font-family: 'Abhaya Libre';
