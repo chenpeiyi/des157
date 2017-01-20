@@ -50,28 +50,14 @@ table {
     border-spacing: 0;
 }
 
-
 /*********************** Reset ends ***********************/
-
-
-/*********************** Reset ends ***********************/
-
-
-/* COLOR AND STUFF
-
-link green color: #29C6CD
-hightlight orange: rgba(243, 156, 18, .5);
-
-*/
 
 a {
     text-decoration: none;
-    color: #1ABC9C;
+    color: darkturquoise;
 }
 
-a:hover {
-    background-color: rgba(243, 156, 18, .5);
-}
+
 
 article{
   width: 600px;
@@ -124,14 +110,29 @@ h1, section, footer {
 
 img{
   padding: 20px;
-  box-shadow: 0px 5px 5px -5px rgba(148,232,215,1);
+  box-shadow: 0px 0px 2px 1px rgba(173,171,171,0.5);
 }
 
 img:hover{
-  box-shadow: 0px 0px 32px -2px rgba(148,232,215,1);
+  box-shadow: 0px 0px 3px 1px rgba(250,237,175,.5);
+}
+
+li a:hover {
+    background-color: gold;
+    color: white;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+time{
 
 }
 
 #time-published{
   color: #D3D3D3;
+  float: left;
+  max-width: 200px;
+  margin: 100px;
 }
