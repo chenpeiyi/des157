@@ -57,10 +57,9 @@ a {
     color: darkturquoise;
 }
 
-main{
+#blog-content{
   width: 600px;
 }
-
 
 body {
     font-family: 'Lato', sans-serif;
@@ -68,7 +67,18 @@ body {
     font-size: 11pt;
     width: 800px;
     margin: auto;
-    line-height: 2em;
+    line-height: 1.5em;
+}
+
+#date{
+  float: left;
+  padding-right: 30px;
+  width: 100px;
+  display: block;
+}
+
+article div{
+  float: left;
 }
 
 footer {
@@ -95,19 +105,17 @@ h1, section, footer {
 
 h2 {
   color: #D3D3D3;
+  float: left;
   display: block;
-  margin: auto;
 }
 
 h3{
   font-size: 18pt;
-  padding-top: .5em;
   padding-bottom: .5em;
   font-family: 'Lato';
   color: dimgrey;
   font-weight: 800;
 }
-
 
 img{
   padding: 20px;
