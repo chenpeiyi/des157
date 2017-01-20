@@ -71,11 +71,12 @@ hightlight orange: rgba(243, 156, 18,.5)
 
 a{
   text-decoration: none;
-  color: #1ABC9C;
+  color: darkturquoise;
 }
 
 a:hover{
-  background-color: rgba(243, 156, 18,.5);
+  background-color: gold;
+  color: white;
 }
 
 body{
