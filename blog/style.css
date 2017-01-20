@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Lato');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:700|Lato');
 * {
     box-sizing: border-box;
 }
@@ -105,16 +105,16 @@ h1 {
     font-size: 25pt;
     text-transform: uppercase;
     letter-spacing: .5em;
-    color: dimgrey;    
+    color: dimgrey;
 }
 
 h2 {
-    letter-spacing: .1em;
     font-size: 18pt;
     padding-top: .5em;
     padding-bottom: .5em;
-    font-family: 'Abhaya Libre';
-    color: #808080;
+    font-family: 'Lato';
+    color: dimgrey;
+    font-weight: 800;
 }
 
 h1, section, footer {
