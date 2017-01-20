@@ -57,16 +57,10 @@ a {
     color: darkturquoise;
 }
 
-
-
-article{
+main{
   width: 600px;
 }
 
-#blog-col{
-  width: 800px;
-  margin: auto;
-}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -94,19 +88,26 @@ h1 {
     color: dimgrey;
 }
 
-h2 {
-    font-size: 18pt;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    font-family: 'Lato';
-    color: dimgrey;
-    font-weight: 800;
-}
-
 h1, section, footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+h2 {
+  color: #D3D3D3;
+  display: block;
+  margin: auto;
+}
+
+h3{
+  font-size: 18pt;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-family: 'Lato';
+  color: dimgrey;
+  font-weight: 800;
+}
+
 
 img{
   padding: 20px;
@@ -124,15 +125,4 @@ li a:hover {
 
 p{
     margin-bottom: 5px;
-}
-
-time{
-
-}
-
-#time-published{
-  color: #D3D3D3;
-  float: left;
-  max-width: 200px;
-  margin: 100px;
 }
