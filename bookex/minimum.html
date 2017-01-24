@@ -1,5 +1,5 @@
-
-<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!-- see console for js - a function that checks the minimum of the two number
+Peiyi Chen, due Jan 24, 2016 -->
 <!doctype html>
 <html>
 
@@ -27,17 +27,29 @@
 </head>
 
 <body>
-    <h1>Chapter 2: Triangle</h1>
+    <h1>Chapter 3 Book Exercise: Minimum</h1>
     <h2>open the console to see the results of the script</h2>
     <script>
-        console.log('ready');
-        var min function(x, y){
-          if ((x-y) =0) {
-            minimum = "equal";
+        var min = function(x, y){    // takes two numbers as parameters
+          var minimum = "";
+          if (x==y) {                // check if they are equal
+            minimum = "none, because they are equal";
+          }
+
+          else if (x - y >0){        // check if x is greater than y
+            minimum = y;
+          }
+
+          else {
+            // if it didn't go through the previous two condition, minimum has to be x
+            minimum = x;
           }
           return minimum;
         }
 
-        function(2,2);
+        console.log("Compare 0 and 9, minimum is: " + min(0,9));
+        console.log("Compare 100 and 100, minimum is: " + min(100,100));
+        console.log("Compare 100 and -1, minimum is: " + min(100,-1));
+
     </script>
 </body>
