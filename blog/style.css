@@ -129,6 +129,7 @@ p {
 footer {
     clear: both;
     align-items: center;
+    font-size: 10pt;
 }
 
 footer li {
