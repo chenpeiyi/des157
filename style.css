@@ -103,6 +103,7 @@ a:hover{
   background-color: gold;
   color: white;
 }
+
 footer{
   clear:both;
   align-items: center;
@@ -111,9 +112,4 @@ footer{
 footer li{
   display: inline;
   padding-right: 50px;
-}
-
-::selection{
-  background-color: darkturquoise;
-  color: white;
 }
