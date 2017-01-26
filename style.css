@@ -1,116 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Abhaya+Libre');
-
-*{
+* {
   box-sizing: border-box;
 }
 
+
 /*********************** Reset starts ***********************/
+
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 
 /*********************** Reset ends ***********************/
 
-body{
+body {
   font-family: 'Lato', sans-serif;
-  color:dimgrey;
+  color: dimgrey;
   font-size: 10pt;
   width: 800px;
-  margin:auto;
+  margin: auto;
   line-height: 2em;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 25pt;
   text-transform: uppercase;
   letter-spacing: .5em;
 }
 
-h1, section, footer{
+h1, section, footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-h2{
+h2 {
   font-size: 18pt;
   padding-bottom: .5em;
   font-family: 'Abhaya Libre';
   color: dimgrey;
 }
 
-div{
+.floating-columns {
   float: left;
   margin-right: 100px;
 }
 
-ol{
+ol {
   list-style: decimal;
 }
 
-a{
+a {
   text-decoration: none;
   color: darkturquoise;
 }
 
-a:hover{
+a:hover {
   background-color: gold;
   color: white;
 }
 
-footer{
-  clear:both;
+footer {
+  clear: both;
   align-items: center;
   font-size: 10pt;
 }
 
-footer li{
+footer li {
   display: inline;
   padding-right: 50px;
 }

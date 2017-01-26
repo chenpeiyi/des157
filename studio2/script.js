@@ -11,11 +11,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function processForm() {
 
         //store user name in a variable
-        var userName = document.f.userName.value;
-        var userColor = document.f.userColor.value;
+        var userNum = document.f.userNum.value;
+        var userObj = document.f.userObj.value;
+        var userProf = document.f.userProf.value;
+
 
         var myMsg = document.getElementById('myMsg');
-        myMsg.innerHTML = 'Hi ' + userNum + ' ' + userObj;
+        myMsg.innerHTML = 'Go to ' + userNum + ' percent of your class. ' + 'When in class, take good ' + userObj + ' and alway yell out to your professor: "I love "' + userProf;
 
         return false;
     }
