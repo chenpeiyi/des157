@@ -15,14 +15,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var userObj = document.f.userObj.value;
         var userProf = document.f.userProf.value;
 
-
-
         var myMsg = document.getElementById('myMsg');
         myMsg.innerHTML = '<li>Go to ' + userNum + ' percent of your class. </li> <li>When in class, take good ' + userObj + ' and alway yell out to your professor: "I love "' + userProf + '</li>';
 
         myMsg.className='show';
 
+        if (userNum == "" || userObj == "" || userProf == "" || ) {
 
+        }
         return false;
     }
 
