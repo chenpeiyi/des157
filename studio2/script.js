@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     //capture the submit event
     document.f.onsubmit = processForm;
-    // document.f.onreset = clearForm;
+    document.f.onreset = clearForm;
 
     //define process function
     function processForm() {
@@ -16,13 +16,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var userProf = document.f.userProf.value;
 
 
+
         var myMsg = document.getElementById('myMsg');
-        myMsg.innerHTML = 'Go to ' + userNum + ' percent of your class. ' + 'When in class, take good ' + userObj + ' and alway yell out to your professor: "I love "' + userProf;
+        myMsg.innerHTML = '<li>Go to ' + userNum + ' percent of your class. </li> <li>When in class, take good ' + userObj + ' and alway yell out to your professor: "I love "' + userProf + '</li>';
+
+        myMsg.className='show';
+
 
         return false;
     }
 
     function clearForm(){
+      myMsg.className='hide';
 
     }
 });
