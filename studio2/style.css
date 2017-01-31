@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+/* import google fonts - ugly handwritten*/
 
 /* CSS Document */
 
@@ -60,7 +62,7 @@ h1 {
   margin: 80px;
   text-align: center;
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: 'Pangolin', cursive;
 }
 
 main {
