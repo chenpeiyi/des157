@@ -55,31 +55,59 @@ table {
 /* Reset ends here */
 
 body {
+  color: white;
   font-family: sans-serif;
+  background-color: darkolivegreen;
 }
 
 h1 {
-  margin: 80px;
+  margin-top: 80px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 70px;
   letter-spacing: 1px;
   font-family: 'Pangolin', cursive;
   text-transform: uppercase;
+  text-shadow: 2px 2px 10px deeppink;
+
 }
 
 main {
-  width: 900px;
+  width: 800px;
   margin: auto;
 }
 
 input[type=text] {
+    background-color: darkolivegreen;
     border: none;
-    border-bottom: 2px solid blue;
+    border-bottom: 1px dashed yellow;
+    height: 20px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+.input-div{
+  padding-top: 20px;
+  }
+
+.button-div{
+  margin-top: 20px;
 }
 
-.div-input{
-  padding: 20px;
-  margin: 10px;
+.button{
+  width: 260px;
+  height: 80px;
+  font-size: 20px;
+  background-color: deeppink;
+  border-style: none;
+  color: yellow;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: darkolivegreen;
+  border: 2px solid hotpink;
 }
 
 .hide {
