@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         // error detection, make sure nothing is blank
         if (userNum == "" || userProf == "" || userAnimal == "" || userFood == "" || userCall == "" || userBFF == "") {
-            alert('Hey! Please do not leave anything blank!');
+            alert('Uh-ohh... Seems like you left some blanks. Fill them out please!');
         }
 
         // if it passed error detection, write my message in html
@@ -40,15 +40,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
             //show it by referencing to the css
             myMsg.className = 'show';
-            /*document.img.style.className = 'show';    */    
           }
-
         return false;
     }
-
     // define clearForm function, called when pressed reset button
     function clearForm() {
         myMsg.className = 'hide';
     }
-
 });
