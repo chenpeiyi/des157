@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         myMsg.className='show';
 
-        if (userNum == "" || userObj == "" || userProf == "" || ) {
+        if (userNum == "" || userObj == "" || userProf == "" ) {
 
         }
         return false;
