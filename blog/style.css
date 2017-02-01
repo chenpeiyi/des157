@@ -106,14 +106,22 @@ a {
     color: darkturquoise;
 }
 
-#blog-content {
+.blog-content {
     width: 600px;
 }
 
-#date {
+.date {
     width: 150px;
     display: block;
     padding-top: 50px;
+    position:static;
+}
+
+hr{
+    background-color: lightgrey;
+    color: lightgrey;
+    clear: both;
+    margin-bottom: 30px;
 }
 
 img {
