@@ -57,9 +57,9 @@ Peiyi Chen, due Feb 2, 2016 -->
         lastTime = time;
         cat.style.top = (Math.sin(angle) * 50) + "px";
         cat.style.left = (Math.cos(angle) * 200) + "px";
-
-        hat.style.top = (Math.sin(angle) * -50) + "px";
-        hat.style.left = (Math.cos(angle) * -200) + "px";
+        // add in the hat
+        hat.style.top = (Math.sin(angle) * -100) + "px";
+        hat.style.left = (Math.cos(angle) * -50) + "px";
         requestAnimationFrame(animate);
       }
       requestAnimationFrame(animate);
