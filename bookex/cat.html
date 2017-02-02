@@ -23,26 +23,44 @@ Peiyi Chen, due Feb 2, 2016 -->
         h1 {
             margin-bottom: 24px;
         }
+/*
+        #cat{
+          position: absolute;
+          top: 300px;
+          left: 300px;
+        }
+
+        #hat{
+          position: absolute;
+          top: 300px;
+          left: 300px;
+        }
+
+      */
     </style>
 </head>
 
 <body>
     <h1>Chapter 13: The Cat's Hat</h1>
     <p style="text-align: center">
-      <img src="images/cat.png" style="position: relative">
+      <img src="images/cat.png" style="position: relative;" id="cat">
+      <img src="images/hat.png" style="position: relative;" id="hat">
     </p>
     <script>
       //find the image using its tag, store image cat in a variable cat
-      var cat = document.querySelector("img");
+      var cat = document.getElementById('cat');
+      var hat = document.getElementById('hat');
       var angle = 0, lastTime = null;
       function animate(time){
         if (lastTime != null)
-          angle += (time-lastTime) * .001;
+          angle += (time-lastTime) * .005;
         lastTime = time;
-        cat.style.pop = (Math.sin(angle) * 20) + "px";
+        cat.style.top = (Math.sin(angle) * 50) + "px";
         cat.style.left = (Math.cos(angle) * 200) + "px";
-        requestAnimationFrame(animate);
 
+        hat.style.top = (Math.sin(angle) * -50) + "px";
+        hat.style.left = (Math.cos(angle) * -200) + "px";
+        requestAnimationFrame(animate);
       }
       requestAnimationFrame(animate);
     </script>
