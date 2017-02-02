@@ -64,6 +64,7 @@ h1 {
     font-size: 25pt;
     text-transform: uppercase;
     letter-spacing: .5em;
+    line-height: 1em;
 }
 
 h1, section, footer {
