@@ -1,0 +1,49 @@
+<!-- see console for js - the cat's hat
+Peiyi Chen, due Feb 2, 2016 -->
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Cat's Hat - Book Exercise Chapter 2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: darkgrey;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chapter 13: The Cat's Hat</h1>
+    <p style="text-align: center">
+      <img src="images/cat.png" style="position: relative">
+    </p>
+    <script>
+      //find the image using its tag, store image cat in a variable cat
+      var cat = document.querySelector("img");
+      var angle = 0, lastTime = null;
+      function animate(time){
+        if (lastTime != null)
+          angle += (time-lastTime) * .001;
+        lastTime = time;
+        cat.style.pop = (Math.sin(angle) * 20) + "px";
+        cat.style.left = (Math.cos(angle) * 200) + "px";
+        requestAnimationFrame(animate);
+
+      }
+      requestAnimationFrame(animate);
+    </script>
+</body>
