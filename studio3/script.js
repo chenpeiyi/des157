@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
           firstCont.className='hide';
           }
 
-
     }
 
 
 
 
+    // pre load images
     var imgs=["images/bgimg.jpg", "images/1-ot.jpg", "images/2-mt.jpg", "images/3-port.jpg", "images/4-letters.jpg", "images/5-2cor.jpg", "images/6-john.jpg", "images/timeline.png", "images/title.png"];
 
     // an empty array that holds the images as js objects
