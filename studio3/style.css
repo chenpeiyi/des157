@@ -167,13 +167,15 @@ aside{
   border-style: solid;
 }
 
-.closeButton{
+#closeButton{
   float: right;
-  position: absolute;
   color: white;
+  position: absolute;
+  top: 3%;
+  right: 3%;
   font-family: helvetica;
 }
 
-.closeButton:hover{
+#closeButton:hover{
   cursor: pointer;
 }
