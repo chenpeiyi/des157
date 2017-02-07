@@ -4,11 +4,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
     // capture the img element by its id into a variable
-    var heart = document.getElementById('heart');
+    var firstSq = document.getElementById('firstSq');
+    var secondSq = document.getElementById('secondSq');
+    var thirdSq = document.getElementById('thirdSq');
+    var fourthSq = document.getElementById('fourthSq');
+    var fifthSq = document.getElementById('fifthSq');
+    var sixthSq = document.getElementById('sixthSq');
 
+/*
+    var closeButton = document.getElementsByClassName('closeButton');
+
+    closeButton.addEventListener('click', myFunction(){
+      var firstCont = document.getElementById('firstCont');
+      firstCont.className='hide';
+    });
+*/
     // add an eventListener for mouseover that changes the src of the
-    // heart image to the image titled "love.png"
-    heart.addEventListener('mouseover', changeToLove);
+    firstSq.addEventListener('click', show1ot);
+    function show1ot(){
+      var firstCont = document.getElementById('firstCont');
+      firstCont.className = 'show';
+    }
 
     function changeToLove(){
       heart.src="images/love.png";
@@ -20,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       heart.src="images/question.png"
     }
 
-    var imgs=["images/bgimg", "images/1-ot.png", "images/2-mt.png", "images/3-port.png", "images/4-letters.png", "images/5-2cor.png", "images/6-john.png"];
+    var imgs=["images/bgimg.jpg", "images/1-ot.jpg", "images/2-mt.jpg", "images/3-port.jpg", "images/4-letters.jpg", "images/5-2cor.jpg", "images/6-john.jpg", "images/timeline.png", "images/title.png"];
 
     // an empty array that holds the images as js objects
     var preload=[];
