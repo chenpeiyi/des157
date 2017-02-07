@@ -59,7 +59,8 @@ html {
 body {
     background-image: url(images/bgimg.jpg);
     background-size: cover;
-    font-family: 'Cormorant Garamond';
+    font-family: Helvetica;
+    font-weight: lighter;
     color: white;
     letter-spacing: 1pt;
     font-size: 16px;
@@ -188,7 +189,26 @@ aside{
   cursor: pointer;
 }
 
-.column{
+.leftCol{
   float: left;
+}
+
+.rightCol{
+  float: right;
   width: 50%;
+}
+
+.bookImg{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+h2{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  padding: 20px;
 }
