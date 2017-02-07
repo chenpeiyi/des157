@@ -12,23 +12,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var sixthSq = document.getElementById('sixthSq');
 
 
-
     // add an eventListener for mouseover that changes the src of the
 
+    // show the content after clicking on the first square
     firstSq.addEventListener('click', show1ot);
     function show1ot(){
       var firstCont = document.getElementById('firstCont');
       firstCont.className = 'show';
+
+      var closeButton = document.getElementsByClassName('closeButton');
+      closeButton.addEventListener('click', close);
+
+        function close(){
+          var firstCont = document.getElementById('firstCont');
+          firstCont.className='hide';
+          }
+
+
     }
 
-    var closeButton = document.getElementsByClassName('closeButton');
 
-    closeButton.addEventListener('click', close);
-
-      function close(){
-        var firstCont = document.getElementById('firstCont');
-        firstCont.className='hide';
-        }
 
 
     var imgs=["images/bgimg.jpg", "images/1-ot.jpg", "images/2-mt.jpg", "images/3-port.jpg", "images/4-letters.jpg", "images/5-2cor.jpg", "images/6-john.jpg", "images/timeline.png", "images/title.png"];

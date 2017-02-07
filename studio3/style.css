@@ -59,6 +59,11 @@ html {
 body {
     background-image: url(images/bgimg.jpg);
     background-size: cover;
+    font-family: 'Cormorant Garamond';
+    color: white;
+    letter-spacing: 1pt;
+    font-size: 16px;
+    line-height: 16pt;
 }
 
 main{
@@ -160,14 +165,17 @@ aside{
   position: absolute;
   top: 5%;
   right: 5%;
-  height: 80%;
-  width: 80%;
+  height: 82%;
+  width: 90%;
   border-color: white;
   border-width: 5px;
   border-style: solid;
+  background-color: hsla(0,0%,0%, 0.8);
+
+
 }
 
-#closeButton{
+.closeButton{
   float: right;
   color: white;
   position: absolute;
@@ -176,6 +184,11 @@ aside{
   font-family: helvetica;
 }
 
-#closeButton:hover{
+.closeButton:hover{
   cursor: pointer;
+}
+
+.column{
+  float: left;
+  width: 50%;
 }
