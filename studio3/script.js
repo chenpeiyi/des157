@@ -10,15 +10,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var fourthSq = document.getElementById('fourthSq');
     var fifthSq = document.getElementById('fifthSq');
     var sixthSq = document.getElementById('sixthSq');
-
     var timeline = document.getElementById('timeline');
-
     var tag1 = document.getElementById('tag1');
-
     var firstCont = document.getElementById('firstCont');
     var elements = document.getElementsByClassName('closeButton');
     var asides = document.getElementsByTagName('aside');
-    console.log('aside: ' + asides[0].classList);
 
     // add hover effect to all the squares
     firstSq.addEventListener('mouseover', brighter);
@@ -27,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         timeline.style.opacity = '1';
         timeline.style.transition = 'opacity .5s ease';
         tag1.className = 'show'; // buggie
-
     }
 
     firstSq.addEventListener('mouseout', changeBack);
@@ -96,23 +91,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
         timeline.style.opacity = '.5';
     }
 
+    // loop throught all the asides, addEventListener to all
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener('click', close);
+    }
+
+    // if any aside in the asides array is bring clicked, hide content
+    function close() {
+        console.log('activating close');
+        for (var i = 0; i < asides.length; i++) {
+            asides[i].className = 'hide';
+        }
+        console.log('aside: ' + asides[0].classList);
+    }
+
     // show the content after clicking on the first square
     firstSq.addEventListener('click', show1ot);
 
     function show1ot() {
         firstCont.className = 'show';
-    }
-
-    for (var i=0; i<elements.length; i++){
-        elements[i].addEventListener('click', close);
-    }
-
-    function close() {
-        console.log('activating close');
-        for (var i=0; i<asides.length; i++){
-        asides[i].className = 'hide';
-      }
-        console.log('aside: ' + asides[0].classList);
     }
 
     secondSq.addEventListener('click', show2mt);
