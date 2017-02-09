@@ -254,9 +254,14 @@ p{
 
 footer{
   align-items: center;
+  font-size: 12px;
 }
 
 footer li {
   display: inline;
-  padding-right: 50px;
+  padding: 50px;
+}
+
+footer a {
+  color: white;
 }
