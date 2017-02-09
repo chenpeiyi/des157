@@ -1,20 +1,68 @@
-<style>
-  .trail { /* className for the trail elements */
-    position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
-    background: teal;
-  }
-  body {
-    height: 300px;
-  }
-</style>
+<!-- mouse trail
+Peiyi Chen, due Feb 9, 2016 -->
+<!doctype html>
+<html>
 
-<script>
-    addEventListener("click", function(event) {
-    var dot = document.createElement("div");
-    dot.className = "dot";
-    dot.style.left = (event.pageX - 4) + "px";
-    dot.style.top = (event.pageY - 4) + "px";
-    document.body.appendChild(dot);
-</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Minimum - Book Exercise Chapter 2</title>
+    <style>
+        * {
+          margin: 0px;
+          padding: 0px
+        }
+
+        .trail { /* className for the trail elements */
+          position: absolute;
+          height: 6px;
+          width: 6px;
+          border-radius: 3px;
+          background-color: teal;
+        }
+
+        .dot {
+            height: 8px;
+            width: 8px;
+            border-radius: 5px; /* rounds corners*/
+            background-color: white;
+            opacity: .5;
+            position: absolute;
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+            height: 300px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Chapter 14 Book Exercise: Minimum</h1>
+    <script>
+
+      addEventListener("mousemove", function(event) {
+        var dot = document.createElement("div");
+        dot.className = "dot";
+        dot.style.left = (event.pageX + 4) + "px";
+        dot.style.top = (event.pageY + 4) + "px";
+        document.body.appendChild(dot);
+
+        var trail = document.createElement("div")
+        trail.className = "trail";
+        trail.style.left = (100 + event.pageX) + "px";
+        trail.style.top = (100 + event.pageY) + "px";
+        document.body.appendChild(trail);
+    });
+
+    </script>
+</body>
+</html>
