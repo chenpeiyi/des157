@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function changePic1(){
       car.src="images/car_blue.png";
       console.log("changing car");
-      tipTimer = setTimeout(showCarTip, 500);
+      tipTimer = setTimeout(showCarTip, 1500);
       console.log("showing car tip")
     }
 
@@ -60,6 +60,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
       carTip.style.opacity = 1;
       carTip.style.transition = 'all .5s';
     }
+
+    cardiv.addEventListener ('click', function(){
+      carAnim = requestAnimationFrame(moveCar);
+      });
+
+      var newLeft = 353;
+      function moveCar() {
+        console.log('moving dot');
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        console.log ('w: ' + w + ', h: ' + h);
+          newLeft ++;
+          car.style.left = newLeft + 'px';
+          console.log ('newLeft: ' + newLeft);
+          dotAnim = requestAnimationFrame(moveCar);
+      }
+
+
 /*
     cardiv.addEventListener('mousedown', moveCar);
     function m
@@ -71,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function changePic2(){
       roof1.src="images/roof_pink.png";
       bod1.src="images/housebod_pink.png";
-      tipTimer = setTimeout(showFuneralTip, 500);
+      tipTimer = setTimeout(showFuneralTip, 1500 );
       console.log("changing house1 funeral");
     }
 
@@ -89,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     girl.addEventListener('mouseover', changePic3);
     function changePic3(){
       girl.src="images/girl_org.png";
-      tipTimer = setTimeout(showGirlTip, 500);
+      tipTimer = setTimeout(showGirlTip, 1500);
       console.log("changing girl");
     }
 
@@ -109,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function changePic4(){
       roof2.src="images/roof_green.png";
       bod2.src="images/housebod_green.png";
-      tipTimer = setTimeout(showHouseTip, 500);
+      tipTimer = setTimeout(showHouseTip, 1500);
       console.log("changing house2 empty");
     }
 

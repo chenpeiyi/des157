@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
 
 
 /* CSS Document */
@@ -66,7 +66,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: helvetica;
+  font-family: 'Roboto', helvetica;
 }
 
 main{
@@ -75,15 +75,24 @@ main{
 }
 
 .tip {
+  width: 500px;
+  height: 250px;
   position:absolute;
   padding:10px;
   border-radius:10px;
-  font-size:16px;
+  font-size:18px;
+  line-height: 22px;
   color: #0076FF;
   background-color:white;
   opacity:0;
+  z-index: 1;
+
 }
 
+em{
+  color: #ff3300;
+  font-weight: bold;
+}
 
 #cardiv, #funeral, #funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2{
   position: absolute;
@@ -99,8 +108,13 @@ main{
 }
 
 #carTip{
-  left: 500px;
-  top: 450px;
+  left: 100px;
+  top: 300px;
+}
+
+#carCont{
+
+  opacity:0;
 }
 
 #roof1{
@@ -143,6 +157,43 @@ main{
   top: 300px;
 }
 
+p{
+  font-family: 'Oswald';
+  position: absolute;
+  right: 13%;
+  top: 500px;
+  color: #0076FF;
+  font-size: 30px;
+  text-align: right;
+}
+
+p a{
+  color: #ff3300;
+}
+
+p a:hover{
+  text-decoration: none;
+}
+
 footer a{
-  color: #81B8F7;
+  color: #3995FF;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  font-family: 'Oswald';
+  align-items: center;
+  font-size: 10pt;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+footer li {
+  display: inline;
+  padding-right: 50px;
 }
