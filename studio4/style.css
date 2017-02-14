@@ -73,20 +73,39 @@ main{
   position: relative;
 }
 
-#cardiv, #funeral, #girl, #house{
+#cardiv, #funeral, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2{
   position: absolute;
 }
 
-#car{
-
+#cardiv, #funeral, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover{
+  cursor: pointer;
 }
 
-#roof1
+#car{
+  left: 353px;
+  top: 450px;
+}
+#roof1{
+  left: 568px;
+  top: 285px;
+}
 
-#bod1
+#bod1{
+  left: 599px;
+  top: 383px;
+}
 
-#girl
+#girl{
+  left: 831px;
+  top: 239px;
+}
 
-#roof2
+#roof2{
+  left: 948px;
+  top: 85px;
+}
 
-#bod2
+#bod2{
+  left: 979px;
+  top: 183px;
+}
