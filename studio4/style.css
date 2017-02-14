@@ -67,11 +67,29 @@ body{
   background-attachment: fixed;
   background-position: center;
   font-family: 'Roboto', helvetica;
+  animation: fadein 2s;
 }
 
 main{
   width: 1000px;
   position: relative;
+  animation: fadein 3s;
+  animation: moveDown 3s;
+}
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  25% {opacity: .25;}
+  50% {opacity: .50;}
+  75% {opacity: .75};
+  100% {opacity: 1;}
+
+}
+
+@keyframes moveDown {
+  0% { top: -20px;}
+  50% { top: -10px;}
+  100% {top: 0px;}
 }
 
 .tip {
@@ -91,7 +109,7 @@ em{
   font-weight: bold;
 }
 
-#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2{
+#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #carC, #roof1, #bod1, #girl, #roof2, #bod2{
   position: absolute;
 }
 
@@ -102,6 +120,13 @@ em{
 #car{
   left: 353px;
   top: 450px;
+}
+
+#carC{
+  left: 353px;
+  top: 450px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 #carTip{

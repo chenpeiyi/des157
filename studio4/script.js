@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var roof2 = document.getElementById('roof2');
     var bod2 = document.getElementById('bod2');
 
+    var carC = document.getElementById('carC');
+
     var carTip = document.getElementById('carTip');
     var funeralTip = document.getElementById('funeralTip');
     var girlTip = document.getElementById('girlTip');
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     cardiv.addEventListener('mouseover', changePic1);
 
     function changePic1() {
-        car.src = "images/car_blue.png";
+        carC.style.opacity = 1;
         console.log("changing car");
         tipTimer = setTimeout(showCarTip, 1500);
         console.log("showing car tip")
@@ -148,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var h = window.innerHeight;
         console.log('w: ' + w + ', h: ' + h);
         carNewLeft++;
-        car.style.left = carNewLeft + 'px';
+        carC.style.left = carNewLeft + 'px';
         console.log('newLeft: ' + carNewLeft);
         carAnim = requestAnimationFrame(moveCar);
 
@@ -168,6 +170,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         console.log('moving house1');
         var w = window.innerWidth;
         var h = window.innerHeight;
+        roof1.style.top = roof1top + 'px';
+        roof1top = roof1top - 5;
         house1Anim = requestAnimationFrame(moveHouse1);
     }
 
