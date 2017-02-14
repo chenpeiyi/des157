@@ -66,6 +66,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: helvetica;
 }
 
 main{
@@ -73,11 +74,22 @@ main{
   position: relative;
 }
 
-#cardiv, #funeral, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2{
+.tip {
+  position:absolute;
+  padding:10px;
+  border-radius:10px;
+  font-size:16px;
+  color: #0076FF;
+  background-color:white;
+  opacity:0;
+}
+
+
+#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2{
   position: absolute;
 }
 
-#cardiv, #funeral, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover{
+#cardiv, #funeral,#funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover{
   cursor: pointer;
 }
 
@@ -85,6 +97,12 @@ main{
   left: 353px;
   top: 450px;
 }
+
+#carTip{
+  left: 500px;
+  top: 450px;
+}
+
 #roof1{
   left: 568px;
   top: 285px;
@@ -95,9 +113,19 @@ main{
   top: 383px;
 }
 
+#funeralTip{
+  left: 700px;
+  top: 390px;
+}
+
 #girl{
   left: 831px;
   top: 239px;
+}
+
+#girlTip{
+  left: 780px;
+  top: 300px;
 }
 
 #roof2{
@@ -108,4 +136,13 @@ main{
 #bod2{
   left: 979px;
   top: 183px;
+}
+
+#houseTip{
+  left: 950px;
+  top: 300px;
+}
+
+footer a{
+  color: #81B8F7;
 }
