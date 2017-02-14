@@ -70,17 +70,23 @@ body{
 
 main{
   width: 1000px;
+  position: relative;
+}
+
+#cardiv, #funeral, #girl, #house{
   position: absolute;
 }
 
-
-
-.rectangle {
-  width: 138px; height: 74px;
-  border-radius: 8px;
-  border: dashed 3px rgba(150, 150, 150, 0.48);
-  position: relative;
-  left:238px;
-  top: 450px;
+#car{
 
 }
+
+#roof1
+
+#bod1
+
+#girl
+
+#roof2
+
+#bod2
