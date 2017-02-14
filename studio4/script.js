@@ -81,7 +81,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         console.log("changing house2 empty");
     }
 
-
     /*
         for (var i = 0; i < pics.length; i++){
           pics[i].addEventListener('mouseover', function(){ //addEventListener is not a function !?!??!?
@@ -90,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         })}
 
         */
-
 
     cardiv.addEventListener('mouseout', function() {
         console.log('mouseout on Car');
