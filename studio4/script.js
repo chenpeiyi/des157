@@ -18,14 +18,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
     var pictures = document.getElementsByTagName('img');
-
     var car = document.getElementById('car');
     var roof1 = document.getElementById('roof1');
     var bod1 = document.getElementById('bod1');
     var girl = document.getElementById('girl');
     var roof2 = document.getElementById('roof2');
     var bod2 = document.getElementById('bod2');
-
     var carC = document.getElementById('carC');
 
     var carTip = document.getElementById('carTip');
@@ -34,16 +32,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var houseTip = document.getElementById('houseTip');
     var tipTimer;
 
-
     var cardiv = document.getElementById('cardiv');
     var funeraldiv = document.getElementById('funeraldiv');
     var girldiv = document.getElementById('girldiv');
     var housediv = document.getElementById('housediv');
-
-
+/*
     var divs = [cardiv, funeraldiv, girldiv, housediv];
     var pics = ['car', 'roof1', 'roof2', 'bod1', 'girl', 'roof2', 'bod2'];
 
+        for (var i = 0; i < pics.length; i++){
+          pics[i].addEventListener('mouseover', function(){ //addEventListener is not a function !?!??!?
+          console.log(pics[i]);
+          console.log("mouseover");
+        })}
+
+        */
 
     // change pic functions
     cardiv.addEventListener('mouseover', changePic1);
@@ -80,15 +83,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         tipTimer = setTimeout(showHouseTip, 1500);
         console.log("changing house2 empty");
     }
-
-    /*
-        for (var i = 0; i < pics.length; i++){
-          pics[i].addEventListener('mouseover', function(){ //addEventListener is not a function !?!??!?
-          console.log(pics[i]);
-          console.log("mouseover");
-        })}
-
-        */
 
     cardiv.addEventListener('mouseout', function() {
         console.log('mouseout on Car');
