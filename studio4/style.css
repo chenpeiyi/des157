@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
 
-
 /* CSS Document */
 
 
@@ -11,41 +10,41 @@
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 
@@ -61,16 +60,17 @@ text blue: #0076FF
 
 ***** Color *****/
 
-body{
+body {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  position: relative;
   font-family: 'Roboto', helvetica;
   animation: fadein 2s;
 }
 
-main{
+main {
   width: 1000px;
   position: relative;
   animation: fadein 3s;
@@ -78,115 +78,130 @@ main{
 }
 
 @keyframes fadein {
-  0% {opacity: 0;}
-  25% {opacity: .25;}
-  50% {opacity: .50;}
-  75% {opacity: .75;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .25;
+  }
+  50% {
+    opacity: .50;
+  }
+  75% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes moveDown {
-  0% { top: -20px;}
-  50% { top: -10px;}
-  100% {top: 0px;}
+  0% {
+    top: -20px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 .tip {
-  position:absolute;
-  padding:10px;
-  border-radius:10px;
-  font-size:18px;
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
   line-height: 22px;
   color: #0076FF;
-  background-color:white;
-  opacity:0;
-  z-index:3;
+  background-color: white;
+  opacity: 0;
+  z-index: 3;
 }
 
-em{
+em {
   color: #ff3300;
   font-weight: bold;
 }
 
-#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #carC, #roof1, #bod1, #girl, #roof2, #bod2{
+#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #carC, #roof1, #bod1, #girl, #roof2, #bod2 {
   position: absolute;
 }
 
-#cardiv, #funeral,#funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover{
+#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover {
   cursor: pointer;
 }
 
-#car{
+#car {
   left: 353px;
   top: 450px;
 }
 
-#carC{
+#carC {
   left: 353px;
   top: 450px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
 
-#carTip{
+#carTip {
   left: 100px;
   top: 20px;
   width: 500px;
   height: 250px;
 }
 
-#carCont{
-
-  opacity:0;
+#carCont {
+  opacity: 0;
 }
 
-#roof1{
+#roof1 {
   left: 568px;
   top: 285px;
 }
 
-#bod1{
+#bod1 {
   left: 599px;
   top: 383px;
 }
 
-#funeralTip{
+#funeralTip {
   left: 100px;
   top: 10px;
   width: 500px;
   height: 200px;
 }
 
-#girl{
+#girl {
   left: 831px;
   top: 239px;
 }
 
-#girlTip{
+#girlTip {
   left: 100px;
   top: 20px;
   width: 500px;
   height: 300px;
 }
 
-#roof2{
+#roof2 {
   left: 948px;
   top: 85px;
 }
 
-#bod2{
+#bod2 {
   left: 979px;
   top: 183px;
 }
 
-#houseTip{
+#houseTip {
   left: 100px;
   top: 20px;
   width: 500px;
   height: 200px;
 }
 
-p{
+p {
   font-family: 'Oswald';
   position: absolute;
   right: 13%;
@@ -197,20 +212,20 @@ p{
   z-index: 3;
 }
 
-p a{
+p a {
   color: #ff3300;
 }
 
-p a:hover{
+p a:hover {
   text-decoration: none;
 }
 
-footer a{
+footer a {
   color: #3995FF;
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
 }
 
