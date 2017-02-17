@@ -60,6 +60,8 @@ text blue: #0076FF
 
 ***** Color *****/
 
+
+/*
 body {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
@@ -68,12 +70,21 @@ body {
   font-family: 'Roboto', helvetica;
   animation: fadein 2s;
 }
+*/
+
+body {
+  font-family: 'Roboto', helvetica;
+}
 
 main {
   width: 1000px;
-  position: relative;
+  margin: auto;
   animation: fadein 3s;
   animation: moveDown 3s;
+}
+
+#bg-img {
+  position: absolute;
 }
 
 @keyframes fadein {
@@ -123,28 +134,25 @@ em {
   font-weight: bold;
 }
 
-#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #carC, #roof1, #bod1, #girl, #roof2, #bod2 {
+#cardiv, #funeral, #funeraldiv, #girl, #girldiv, #house, #housediv, #car, #carC, #roof1, #bod1, #girl, #roof2, #bod2 {
   position: absolute;
 }
 
-#cardiv, #funeral, #funeraldiv, #girl, #house, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover {
+#cardiv, #funeral, #funeraldiv, #girl, #girldiv, #house, #housediv, #car, #roof1, #bod1, #girl, #roof2, #bod2:hover {
   cursor: pointer;
 }
 
 #car {
-  left: 353px;
   top: 450px;
 }
 
 #carC {
-  left: 353px;
   top: 450px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
 
 #carTip {
-  left: 100px;
   top: 20px;
   width: 500px;
   height: 250px;
@@ -155,46 +163,43 @@ em {
 }
 
 #roof1 {
-  left: 568px;
+  left: 215px;
   top: 285px;
 }
 
 #bod1 {
-  left: 599px;
+  left: 246px;
   top: 383px;
 }
 
 #funeralTip {
-  left: 100px;
   top: 10px;
   width: 500px;
   height: 200px;
 }
 
 #girl {
-  left: 831px;
+  left: 500px;
   top: 239px;
 }
 
 #girlTip {
-  left: 100px;
   top: 20px;
   width: 500px;
   height: 300px;
 }
 
 #roof2 {
-  left: 948px;
+  left: 750px;
   top: 85px;
 }
 
 #bod2 {
-  left: 979px;
+  left: 781px;
   top: 183px;
 }
 
 #houseTip {
-  left: 100px;
   top: 20px;
   width: 500px;
   height: 200px;

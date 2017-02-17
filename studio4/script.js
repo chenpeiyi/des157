@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         carAnim = requestAnimationFrame(moveCar);
     });
 
-    var carNewLeft = 353;
+    var carNewLeft = 0;
 
     function moveCar() {
         console.log('moving car');
