@@ -239,7 +239,7 @@ footer {
   font-size: 10pt;
   position: absolute;
   right: 10%;
-  bottom: 10%;
+  top: 10%;
 }
 
 footer li {
