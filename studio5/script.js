@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var pls = document.f.pls.checked;
 
       console.log("pet peeve "+ petp);
-      console.log("pet peeve "+ petp);
-      console.log("pet peeve "+ petp);
+      console.log("million "+ million);
+      console.log("pls "+ pls);
 
 
     }
