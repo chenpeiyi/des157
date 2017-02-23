@@ -3,28 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Library</title>
+    <title>Friendship</title>
     <link href="style.css" rel="stylesheet" />
     <script src='parallax.js' type="text/javascript"></script>
     <script src='script.js' type="text/javascript"></script>
 </head>
 
-
 <body>
+    <section id="container">
+        <ul id="scene">
+            <li class="layer" data-depth="0.20"><img src="images/light.png" id="waveBack" alt="light wave"></li>
+            <li class="layer" id="shipContainer" data-depth="-0.10"><img src="images/friendship.png" id="ship" class="wave" alt="friendship"></li>
+            <li class="layer" data-depth="1.0"><img src="images/med.png" id="waveMid" alt="medium wave"></li>
+            <li class="layer" data-depth="-0.60"><img src="images/dark.png" id="waveFront" alt="dark wave"></li>
+        </ul>
+    </section>
 
-<section class="container">
-
-<ul id="scene">
-  <li class="layer" data-depth="0.20"><img src="images/light.png" id="waveBack" alt="light wave"></li>
-  <li class="layer" id="shipContainer" data-depth="-0.10"><img src="images/friendship.png" id="ship" class="wave" alt="friendship"></li>
-  <li class="layer" data-depth="1.0"><img src="images/med.png" id="waveMid" alt="medium wave"></li>
-  <li class="layer" data-depth="-0.60"><img src="images/dark.png" id="waveFront" alt="dark wave"></li>
-</ul>
-
-
-</section>
-
-<!--
+    <!--
   <form name="f">
     <section>
             <div class="input-div">
@@ -64,10 +59,10 @@
 -->
 
     <footer>
-      <ul>
-          <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML 5</a></li>
-          <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></li>
-      </ul>
+        <ul>
+            <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML 5</a></li>
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></li>
+        </ul>
     </footer>
 
 </body>

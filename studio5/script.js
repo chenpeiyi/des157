@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
 
-    var imgs = [""];
+    var imgs = ["images/light.png", "images/med.png", "images/dark.png", "images/friendship.png",];
 
     // an empty array that holds the images as js objects
     var preload = [];
@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         console.log(preload[i]);
     }
 
-
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene, {
         calibrateX: true,
@@ -26,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         limitY: false,
         scalarX: 10.0,
         scalarY: 8.0,
-        frictionX: 0.1,
-        frictionY: 0.1,
+        frictionX: 0.3,
+        frictionY: 0.2,
         originX: 1,
         originY: 1,
     });
