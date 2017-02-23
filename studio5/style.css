@@ -55,9 +55,11 @@ table {
   display: table;
   height: 100%;
   width: 100%;
-  right: 50px;
-  top: 0;
+  margin: auto;
+}
 
+.wave{
+  background: transparent repeat-x;
 }
 
 #waveBack{
@@ -74,14 +76,16 @@ table {
 
 #waveMid{
   position: absolute;
-  left: -100px;
+  left: -200px;
   top: 500px;
 }
 
 #ship{
   position: absolute;
-  margin: auto;
+  left: 600px;
+  top: 100px;
 }
+
 
 footer a {
   color: #3995FF;

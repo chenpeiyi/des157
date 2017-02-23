@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene, {
-        calibrateX: false,
+        calibrateX: true,
         calibrateY: true,
         invertX: true,
         invertY: true,
@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         limitY: false,
         scalarX: 10.0,
         scalarY: 8.0,
-        frictionX: 0.5,
-        frictionY: 0.5,
+        frictionX: 0.1,
+        frictionY: 0.1,
         originX: 1,
         originY: 1,
     });
