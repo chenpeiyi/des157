@@ -50,6 +50,9 @@ table {
 
 /***** reset ends *****/
 
+h1{
+  display: none;
+}
 #container {
     position: absolute;
     height: 100%;
