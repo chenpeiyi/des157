@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
 
-    var imgs = ["images/light.png", "images/med.png", "images/dark.png", "images/friendship.png",];
+    var imgs = ["images/light.png", "images/med.png", "images/dark.png", "images/friendship.png", ];
 
     // an empty array that holds the images as js objects
     var preload = [];
