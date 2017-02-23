@@ -48,32 +48,34 @@ table {
 }
 
 
-/***** Reset Ends *****/
+/***** reset ends *****/
 
+.container {
+  overflow: hidden;
+  position: absolute;
+  display: table;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
 
-/***** Color Ends*****
-
-Bright blue: #3366ff
-rgb (51, 102, 255)
-
-text blue: #0076FF
-
-***** Color *****/
-
-
-/*
-body {
-  background-image: url(images/bg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  font-family: 'Roboto', helvetica;
-  animation: fadein 2s;
 }
-*/
 
+#waveBack{
+  display:block;
+  position: absolute;
+  top: 400px;
+}
 
+#waveMid{
+  position: absolute;
 
+}
+
+#waveFront{
+  position: absolute;
+
+}
 
 footer a {
   color: #3995FF;
