@@ -30,20 +30,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
         originX: 1,
         originY: 1,
     });
-/*
-    document.f.onsubmit = processForm;
-
-    function processForm() {
-        var score = 0;
-        var petp = document.f.petp.checked;
-        var million = document.f.million.checked;
-        var pls = document.f.pls.checked;
-
-        console.log("pet peeve " + petp);
-        console.log("million " + million);
-        console.log("pls " + pls);
-
-
-    }*/
-
 });
