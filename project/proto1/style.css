@@ -16,10 +16,41 @@ h1{
   box-sizing: border-box;
 }
 
+footer{
+  bottom: 0;
+}
+
+header{
+  top: 0;
+}
+
 a{
   display: block;
   width: 100%;
   text-align: center;
   padding: 50px;
   box-sizing: border-box;
+}
+
+form{
+  text-align: center;
+}
+
+article{
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+
+.fields{
+  text-align: center;
+  margin: 20px;
+}
+
+#content{
+  width: 400px;
+  height: 400px;
+
 }
