@@ -71,11 +71,10 @@ main{
 }
 
 header, #header-space{
-  text-align: right;
+  text-align: center;
 	padding: 15px;
 	padding-right: 70px;
 	background-color: white;
-  box-shadow: 0px 5px 5px gainsboro;
 	margin-bottom: 25px;
 	width: 375px;
 	box-sizing: border-box;
@@ -88,7 +87,7 @@ header{
 	}
 
 #header-space{
-		height: 70px;
+		height: 80px;
 		width: 100%;
 	}
 
