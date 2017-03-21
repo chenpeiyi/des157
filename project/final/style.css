@@ -120,15 +120,21 @@ footer nav button{
 }
 
 h1{
+	/* took out below because put logo in
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   color: #67D3BC;
+	*/
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	padding-left: 10px;
 }
 
-#title{
-	margin-top: 50px;
-	text-align: center;
+#home-logo{
 }
 
 h2{
@@ -141,7 +147,7 @@ h3{
   font-size: 18px;
 	text-align: center;
 	margin-top: 50px;
-  padding-bottom: 5px;
+  margin-bottom: 50px;
 	line-height: 29px;
   color: white;
 }
@@ -200,8 +206,6 @@ button{
 	border-radius: 30px;
 }
 
-
-
 article{
 	padding: 20px 0;
   box-sizing: border-box;
@@ -213,6 +217,12 @@ article:first-of-type{
 }
 
 #login-page{
+	width: 90%;
+}
+
+#sign-in-button{
+	display: block;
+	margin: auto;
 }
 
 #home-page{
