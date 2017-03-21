@@ -103,12 +103,11 @@ footer{
 	position: fixed;
 	width: 375px;
 	box-sizing: border-box;
-	top:474px;
-	box-shadow: 0 -5px 5px gainsboro;
 	background-color: white;
+	bottom:0;
 	}
 
-	#footer-space{
+#footer-space{
 		height: 85px;
 		width: 100%;
 	}
@@ -125,7 +124,7 @@ footer nav button{
 	border: 2px solid #90DFCE;
 }
 
-h1{
+h1 #logo-c{
 	/* took out below because put logo in
   font-size: 40px;
   font-weight: 700;
@@ -134,7 +133,7 @@ h1{
 	*/
 	text-align: center;
 	margin: auto;
-	padding-top: 20px;
+	padding-top: 23px;
 }
 
 #home-logo{
@@ -149,13 +148,19 @@ h2{
 	padding-left: 10px;
 }
 
-h3{
+h3 #home-blurb{
   font-size: 18px;
 	text-align: center;
 	margin-top: 50px;
   margin-bottom: 50px;
 	line-height: 29px;
   color: white;
+}
+
+h3 #post-titles{
+	font-size: 14px;
+	padding-bottom: 5px;
+	color: dimgray;
 }
 
 h4{
