@@ -64,7 +64,7 @@ main{
 	background-color: #7DE2E2;
   width: 375px;
   height: 667px;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   overflow-x: hidden;
   margin: auto;
   border: 1px solid lightgrey;
@@ -112,7 +112,7 @@ footer nav button{
 	width: 50px;
 	font-weight: 400;
   font-size: 12px;
-	margin:2.5px;
+	margin: 2.5px;
 	box-sizing: border-box;
 	background-color: white;
 	color: #90DFCE;
@@ -138,8 +138,9 @@ h2{
 }
 
 h3{
-  font-size: 20px;
+  font-size: 18px;
 	text-align: center;
+	margin-top: 50px;
   padding-bottom: 5px;
 	line-height: 29px;
   color: white;
