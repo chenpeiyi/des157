@@ -89,7 +89,7 @@ header{
 		position: fixed;
 		background-color: #f1fffb;
 		height: 80px;
-		width: 100%;
+		width: 375px;
 	}
 
 #header-space{
@@ -133,6 +133,7 @@ h1{
 	*/
 	text-align: center;
 	margin: auto;
+	padding-top: 20px;
 }
 
 #home-logo{
