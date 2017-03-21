@@ -70,6 +70,8 @@ main{
   border: 1px solid lightgrey;
 }
 
+
+/*
 header, #header-space{
   text-align: center;
 	padding: 15px;
@@ -81,14 +83,17 @@ header, #header-space{
 	display:none;
 	}
 
+*/
+
 header{
 		position: fixed;
 		background-color: #f1fffb;
+		height: 80px;
+		width: 100%;
 	}
 
 #header-space{
-		height: 80px;
-		width: 100%;
+
 	}
 
 footer{
@@ -126,7 +131,8 @@ h1{
   text-transform: uppercase;
   color: #67D3BC;
 	*/
-
+	text-align: center;
+	margin: auto;
 }
 
 #home-logo{
