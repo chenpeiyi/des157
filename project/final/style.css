@@ -86,6 +86,7 @@ header, #header-space{
 */
 
 header{
+		display: none;
 		position: fixed;
 		background-color: #f1fffb;
 		height: 80px;
