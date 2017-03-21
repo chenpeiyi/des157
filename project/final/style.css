@@ -244,6 +244,10 @@ article:first-of-type{
 	display: none;
 }
 
+#home-hero{
+	z-index: -2;
+}
+
 #post-page{
 	display: none;
 }
