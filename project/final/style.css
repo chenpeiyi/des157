@@ -148,7 +148,7 @@ h2{
 	padding-left: 10px;
 }
 
-h3 #home-blurb{
+#home-blurb{
   font-size: 18px;
 	text-align: center;
 	margin-top: 50px;
@@ -192,7 +192,7 @@ textarea{
 p{
   font-size: 14px;
   color: gray;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 	display: inline;
 }
 
