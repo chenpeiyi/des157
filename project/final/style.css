@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700');
 
 
 /* CSS Document */
@@ -57,16 +57,17 @@ table {
 /* add your custom css here */
 
 body{
-  font-family: "Lato", sans-serif;
+  font-family: "Istok", sans-serif;
 }
 
 main{
+	background-color: #7DE2E2;
   width: 375px;
-  height: 559px;
-  overflow: scroll;
+  height: 667px;
+  overflow-y: scroll;
   overflow-x: hidden;
   margin: auto;
-  border: 2px solid grey;
+  border: 1px solid lightgrey;
 }
 
 header, #header-space{
@@ -125,7 +126,7 @@ h1{
   color: #67D3BC;
 }
 
-.title{
+#title{
 	margin-top: 50px;
 	text-align: center;
 }
@@ -137,10 +138,11 @@ h2{
 }
 
 h3{
-  font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
+	text-align: center;
   padding-bottom: 5px;
-  color: dimgray;
+	line-height: 29px;
+  color: white;
 }
 
 h4{
@@ -159,8 +161,7 @@ h5{
 }
 
 textarea{
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-family: "Istok", sans-serif;
   font-size: 14px;
   width: 100%;
   border: 2px solid #90DFCE;
@@ -171,7 +172,6 @@ textarea{
 }
 
 p{
-  font-weight: 300;
   font-size: 14px;
   color: gray;
   padding-bottom: 5px;
@@ -191,7 +191,7 @@ button{
 	margin: 20px auto;
 	background-color: #43B7A6;
 	border: none;
-	font-family: "Lato", sans-serif;
+	font-family: "Istok", sans-serif;
 	font-weight: 400;
   font-size: 20px;
 	color: white;
@@ -207,18 +207,6 @@ article{
 
 article:first-of-type{
   border: none;
-}
-
-.darkgreen{
-  background-color: #43B7A6;
-}
-
-.lightgreen{
-  background-color: #90DFCE;
-}
-
-.middlegreen{
-  background-color: #67D3BC;
 }
 
 #login-page{
