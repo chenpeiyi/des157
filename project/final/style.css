@@ -126,21 +126,19 @@ h1{
   text-transform: uppercase;
   color: #67D3BC;
 	*/
-	text-align: center;
-	margin-top: 50px;
-	display: block;
-	margin: auto;
-	margin-top: 80px;
-	padding-left: 10px;
+
 }
 
 #home-logo{
 }
 
 h2{
-  font-weight: 400;
-  font-size: 20px;
-  padding-bottom: 5px;
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	padding-left: 10px;
 }
 
 h3{
@@ -217,7 +215,7 @@ article:first-of-type{
 }
 
 #login-page{
-	width: 90%;
+	width: 85%;
 }
 
 #sign-in-button{
